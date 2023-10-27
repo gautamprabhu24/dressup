@@ -1,0 +1,68 @@
+
+<html>
+   <head>
+      <title>Register</title>
+      <link rel="stylesheet" href="r1.css">
+      <script rel="text/javascript" src="sc.js"></script>
+   </head>
+   <body>
+      <h1>Registration form</h1>
+      <form>
+         <table align="center">
+            <tr>
+               <td>First name: </td>
+               <td><input type="text" onmouseout="fun1()" id="b"><br><w style="color:red;" id="a"></w></td>
+            </tr>
+            <tr>
+               <td>Middle Name: </td>
+               <td><input type="text" onmouseout="fun2()" id="p"><br><w style="color:red;" id="o"></w></td></td>
+            </tr>
+            <tr>
+               <td>Last name: </td>
+               <td><input type="text" onmouseout="fun3()" id="l"><br><w style="color:red;" id="k"></w></td>
+            </tr>
+            <tr>
+               <td>Course: </td>
+               <td><select>
+                  <option>CS</option>
+                  <option>AT</option>
+                  <option>PT</option>
+                  <option>MECH</option>
+                  <option>ME</option>
+                  <option>EC</option>
+                  <option>EE</option>
+                  <option>CE</option>
+               </select></td>
+            </tr>
+            <tr>
+               <td>Gender: </td>
+               <td><input type="radio" name="gen">Male</input><input type="radio" name="gen">Female</input></td>
+            </tr>
+            <tr>
+               <td>Phone number: </td>
+               <td><input type="text" onmouseout="fun4()" id="m"><br><w style="color:red;" id="n"></w></td>
+            </tr>
+            <tr>
+               <td>Address:</td>
+               <td><textarea rows="3" cols="18"></textarea></td>
+            </tr>
+            <tr>
+               <td>E-mail: </td>
+               <td><input type="email"  onmouseout="fun5()" id="u"><br><w style="color:red;" id="y"></w></td>
+            </tr>
+            <tr>
+               <td>Password: </td>
+               <td><input type="password" id="g" onmouseout="fun6()"><br><w style="color:red;" id="d"></w></td>
+            </tr>
+            <tr>
+               <td>Re-type Password: </td>
+               <td><input type="password" id="f" onmouseout="fun7()"><br><w style="color:red;" id="s"></w></td>
+            </tr>
+            <tr>
+               <td colspan="2"><input type="button" value="register" style="background-color:blueviolet;color:azure;width:5pc;"
+                   onclick="pass()"></td>
+            </tr>
+         </table>
+      </form>
+   </body>
+</html>
